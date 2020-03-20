@@ -10,6 +10,9 @@ output: html_document
 ## 前言
 已经成功将rmd文件编译成完整的html格式，但是pandoc和Miktex将html格式转为pdf格式确遇到问题:Cannot find Inconsolata.mf.
 待更新......
+---
+下载Inconsolata字体并将其放置在系统字体文件夹内，报错问题解决。
+---
 
 ## 准备工作
 首先克隆Hadley Wickham的github存储库的源代码到git本地仓库,网址参考：<https://github.com/hadley/adv-r/>
